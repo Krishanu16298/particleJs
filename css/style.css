@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+#particles-js{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: #000055;
+  z-index: -1;
+
+}
+
+#showcase{
+  color:#fff;
+  text-align: center;
+  width:70%;
+  margin: auto;
+  margin-top:250px;
+}
+#showcase h1{
+  font-size: 50px;
+}
+#showcase .btn{
+  padding: 10px 20px;
+  color:white;
+  border: 1px #fff solid;
+  text-decoration: none;
+  border-radius:5px;
+  transition: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+}
+#showcase .btn:hover{
+  background: rgba(0,100,100,0.7);
+  border:1px #0ff solid;
+}
